@@ -1,0 +1,34 @@
+.*
+__pycache__/
+*.pyc
+migrations/*/progress.json
+migrations/*/source_items_cache.json
+
+# Excel exports
+*.xlsx
+
+# generated script outputs (run logs + audit results)
+*_log.txt
+*_results*.json
+
+# data files
+*.json
+*.jsonl
+*.log
+
+# secrets: never commit any env file, anywhere
+.env
+.env.*
+*.env
+
+# Priority ERP sizing outputs (may contain PII)
+priority/out/
+
+# Priority sandbox loader pulls (out/*.ndjson)
+priority_in_supabase/priority-sandbox-loader/out/
+
+# Priority $metadata dumps (14 MB each), anywhere in the repo
+metadata.xml
+
+# Local editor / MCP client config (contains the Supabase project ref)
+.continue/
