@@ -59,3 +59,7 @@ The secret key bypasses row-level security, so keep it on trusted servers only.
   tenant, use a personal access token of a **read-only** Priority user and mind your API transaction quota.
 - Priority allows 100 API calls per minute and locks a user for 30 minutes after 3 failed logins in
   10 minutes. Every script here stops on the first 401 or 429 and never retries.
+
+## License
+
+[PolyForm Noncommercial 1.0.0](LICENSE). For commercial use, contact [Lemonade Operations](https://www.lemonade-operations.com/).
